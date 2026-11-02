@@ -1,0 +1,6 @@
+# Allow all search engine crawlers to index the open record portal
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://HelixOriginator.github.io/maximum-doi-world-record-framework/sitemap.xml
