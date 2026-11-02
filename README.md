@@ -19,13 +19,6 @@ This framework establishes a decentralized, open-science model to protect intell
 
 ---
 
-## Verification & Audit Trail
-* **Public ORCID Profile:** [View ORCID Record](https://orcid.org)
-* **Master DOI Index:** Available in this repository (`master-doi-index.xlsx`)
-* **Primary Bibliography:** Exported BibTeX file (`bibliography.bib`)
-
----
-
 ## Author & Maintainer
 **Kallol Chakrabarti**  
 Independent Researcher, Policy Analyst, and Author  
