@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>World Record Proposal | Maximum DOI Research Papers</title>
+    <title>Pre-Record Category Proposal | Maximum DOI Research Papers by an Individual in a Year</title>
+    <meta name="description" content="Pre-record category proposal: Maximum DOI Research Papers by an Individual in a Year, 158 verified DOIs, certified by the India Book of Records and the Asia Book of Records (Grand Master).">
     <style>
         :root {
             --bg-color: #0d1117;
@@ -13,14 +14,15 @@
             --text-secondary: #8b949e;
             --accent-color: #58a6ff;
             --accent-gold: #d29922;
-            --success-color: #238636;
         }
+
+        * { box-sizing: border-box; }
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--bg-color);
             color: var(--text-primary);
-            line-height: 1.6;
+            line-height: 1.65;
             margin: 0;
             padding: 0;
         }
@@ -51,6 +53,7 @@
 
         h1 {
             font-size: 2rem;
+            line-height: 1.25;
             margin: 0 0 12px 0;
             color: #ffffff;
         }
@@ -59,6 +62,12 @@
             font-size: 1.1rem;
             color: var(--text-secondary);
             margin: 0;
+        }
+
+        .addressed {
+            margin-top: 16px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
         }
 
         .grid {
@@ -77,7 +86,7 @@
 
         .card h3 {
             margin-top: 0;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             text-transform: uppercase;
             letter-spacing: 0.5px;
             color: var(--text-secondary);
@@ -90,6 +99,8 @@
             margin: 8px 0;
         }
 
+        .card .metric.gold { color: var(--accent-gold); }
+
         .card p {
             margin: 0;
             font-size: 0.9rem;
@@ -101,7 +112,7 @@
             color: #ffffff;
             border-bottom: 1px solid var(--border-color);
             padding-bottom: 8px;
-            margin-top: 40px;
+            margin-top: 48px;
             margin-bottom: 20px;
         }
 
@@ -110,30 +121,57 @@
             border-left: 4px solid var(--accent-color);
             padding: 20px;
             border-radius: 0 8px 8px 0;
-            margin-bottom: 32px;
+            margin-bottom: 24px;
         }
 
-        .btn {
-            display: inline-block;
-            background-color: var(--success-color);
+        .manifesto p { margin: 0; }
+        .manifesto p + p { margin-top: 12px; }
+
+        .pillar h3 {
+            text-transform: none;
+            letter-spacing: 0;
+            font-size: 1.05rem;
             color: #ffffff;
-            padding: 10px 20px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: 600;
-            margin-right: 12px;
-            margin-top: 12px;
+            margin-bottom: 8px;
         }
 
-        .btn-outline {
-            background-color: transparent;
+        .pillar p { font-size: 0.95rem; }
+
+        .platforms {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            gap: 12px;
+        }
+
+        .platforms li {
+            background-color: var(--card-bg);
             border: 1px solid var(--border-color);
-            color: var(--text-primary);
+            border-radius: 8px;
+            padding: 14px 18px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px 16px;
+            align-items: baseline;
         }
 
-        .btn-outline:hover {
-            border-color: var(--accent-color);
-            color: var(--accent-color);
+        .platforms strong { color: #ffffff; min-width: 150px; }
+        .platforms span { color: var(--text-secondary); font-size: 0.92rem; flex: 1; }
+
+        .closing {
+            text-align: center;
+            padding: 28px 20px;
+            border: 1px solid var(--accent-gold);
+            background-color: rgba(210, 153, 34, 0.08);
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+
+        .closing p {
+            margin: 0;
+            font-size: 1.1rem;
+            color: #ffffff;
         }
 
         footer {
@@ -145,13 +183,29 @@
             padding-top: 24px;
         }
 
-        a {
-            color: var(--accent-color);
-            text-decoration: none;
+        a { color: var(--accent-color); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+
+        .credit {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 1.15rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
         }
 
-        a:hover {
-            text-decoration: underline;
+        .credit span {
+            background: linear-gradient(90deg, #58a6ff, #bc8cff, #f778ba, #d29922);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: #bc8cff;
+        }
+
+        @media (max-width: 520px) {
+            h1 { font-size: 1.6rem; }
+            .platforms strong { min-width: 100%; }
         }
     </style>
 </head>
@@ -159,47 +213,75 @@
 
 <div class="container">
     <header>
-        <span class="badge">PROPOSED WORLD RECORD CATEGORY</span>
+        <span class="badge">PRE-RECORD CATEGORY PROPOSAL</span>
         <h1>Maximum DOI Research Papers by an Individual in a Year</h1>
-        <p class="lead">Pioneering a decentralized, open-science framework for grassroots and independent creators globally.</p>
+        <p class="lead">A decentralized, open-science category for independent and unaffiliated creators, so that creative intellect is recognised without needing a university affiliation.</p>
     </header>
 
     <div class="grid">
         <div class="card">
             <h3>Verified DOIs (2025)</h3>
             <div class="metric">158</div>
-            <p>Cryptographically timestamped & open-access</p>
+            <p>Cryptographically timestamped and registered via ORCID within a single calendar year</p>
         </div>
         <div class="card">
             <h3>Institutional Precedent</h3>
-            <div class="metric" style="color: var(--accent-gold);">Dual Title</div>
-            <p>India Book of Records & Asia Book of Records</p>
+            <div class="metric gold">Dual Title</div>
+            <p>India Book of Records &amp; Asia Book of Records (Grand Master)</p>
         </div>
         <div class="card">
-            <h3>Global Academic Reach</h3>
+            <h3>Open-Science Reach</h3>
             <div class="metric">1,125+</div>
-            <p>SSRN Downloads & 56 Semantic Scholar Citations</p>
+            <p>SSRN downloads and 56+ Semantic Scholar citations as an unaffiliated researcher</p>
         </div>
     </div>
 
-    <h2 class="section-title">Category Vision & Purpose</h2>
+    <h2 class="section-title">Category Vision &amp; Purpose</h2>
     <div class="manifesto">
-        <p>This category redefines the purpose of global recognition by bridging the gap between class-bound academic research and mass-oriented societal impact. Designed to protect the intellectual property rights of resource-constrained, unaffiliated creators across ASEAN, Africa, and the global South, this framework leverages persistent Digital Object Identifiers (DOIs) to prove that creative intellect belongs to humanity, not institutional monopolies.</p>
+        <p>This category redefines the purpose of global recognition. It goes beyond quantitative metrics and traditional academic orthodoxy, bridging the gap between class-bound academic research and mass-oriented societal impact.</p>
+        <p>It is designed to protect the intellectual property of resource-constrained, unaffiliated creators across Asia, Africa and the global South. Persistent Digital Object Identifiers (DOIs) show that creative intellect belongs to humanity, not to institutional monopolies.</p>
     </div>
 
-    <h2 class="section-title">Verification & Audit Log</h2>
-    <p>All research entries are publicly indexed and verifiable in real time through persistent identifiers:</p>
-    
-    <div>
-        <a href="https://orcid.org" target="_blank" class="btn">View Public ORCID Profile</a>
-        <a href="#master-sheet" class="btn btn-outline">Download Master DOI Sheet (.xlsx)</a>
-        <a href="#bibtex" class="btn btn-outline">Export BibTeX (.bib)</a>
+    <h2 class="section-title">Why This Category Matters</h2>
+    <div class="grid">
+        <div class="card pillar">
+            <h3>Research for the masses</h3>
+            <p>Governments invest billions in elite research centres, yet academia often stays confined to the "classes". Research has become focused on methodology and jargon rather than practical, human-centric impact.</p>
+        </div>
+        <div class="card pillar">
+            <h3>Strength from adversity</h3>
+            <p>Independent researchers work without salaries, grants or laboratory backing. That struggle can shape formidable policy makers and innovators whose work addresses real human needs directly.</p>
+        </div>
+        <div class="card pillar">
+            <h3>Protection through DOIs</h3>
+            <p>A DOI is an indelible, timestamped public record. It protects billions of unknown creative minds from having their ideas ignored or taken simply because they lack institutional titles.</p>
+        </div>
+    </div>
+
+    <h2 class="section-title">Who This Category Serves</h2>
+    <p>Grassroots creators, farmers, local problem-solvers and self-directed scholars who focus on core concepts rather than institutional gatekeeping. Approving this category would signal to unsung creators worldwide that a university affiliation is not required, and encourage grassroots patent filing, independent scholarship and democratized intellectual property protection.</p>
+
+    <h2 class="section-title">Decentralized Validation Platforms</h2>
+    <p>Open platforms are replacing institutional monopoly as the place where independent research is validated.</p>
+    <ul class="platforms">
+        <li><strong>ORCID</strong><span>Safeguards creative identity and lets independent scholars establish prior art.</span></li>
+        <li><strong>ScienceOpen</strong><span>The applicant serves as a global peer reviewer.</span></li>
+        <li><strong>SSRN</strong><span>1,125+ downloads.</span></li>
+        <li><strong>Semantic Scholar</strong><span>56+ citations recorded for an unaffiliated researcher.</span></li>
+        <li><strong>India Book of Records</strong><span>National validation: 158 verified DOIs certified within a single calendar year.</span></li>
+        <li><strong>Asia Book of Records</strong><span>Continental recognition: Asia Book of Records holder, title of Grand Master.</span></li>
+    </ul>
+
+    <div class="closing">
+        <p>Creative intellect does not require a university affiliation.</p>
     </div>
 
     <footer>
-        <p>Curated & Maintained by <strong>Kallol Chakrabarti</strong> | Unaffiliated Independent Researcher & Policy Analyst</p>
-        <p>Lucknow, Uttar Pradesh, India | Helix Originator & Docu Helix Frameworks</p>
+        <p>Curated &amp; Maintained by <strong>Kallol Chakrabarti</strong> | Independent Researcher &amp; Author</p>
+        <p>Lucknow, Uttar Pradesh, India</p>
     </footer>
+
+    <p class="credit"><span>Concept created by Kallol Chakrabarti</span></p>
 </div>
 
 </body>
