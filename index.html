@@ -204,9 +204,72 @@
             color: #bc8cff;
         }
 
+        /* Featured research article button */
+        .featured-paper {
+            margin: 0 0 32px 0;
+            padding: 26px 24px;
+            background: linear-gradient(135deg, rgba(88, 166, 255, 0.10), rgba(188, 140, 255, 0.10) 55%, rgba(210, 153, 34, 0.10));
+            border: 1px solid var(--accent-color);
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .featured-paper .label {
+            display: inline-block;
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            margin-bottom: 10px;
+        }
+
+        .featured-paper .paper-title {
+            font-size: 1.1rem;
+            color: #ffffff;
+            font-weight: 600;
+            margin: 0 0 10px 0;
+            line-height: 1.4;
+        }
+
+        .featured-paper .summary {
+            font-size: 0.97rem;
+            color: var(--text-primary);
+            max-width: 680px;
+            margin: 0 auto 20px auto;
+        }
+
+        .doi-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 30px;
+            font-size: 1.02rem;
+            font-weight: 700;
+            color: #0d1117;
+            background: linear-gradient(90deg, #58a6ff, #bc8cff);
+            border-radius: 999px;
+            box-shadow: 0 6px 22px rgba(88, 166, 255, 0.35);
+            transition: transform 0.18s ease, box-shadow 0.18s ease;
+        }
+
+        .doi-button:hover {
+            text-decoration: none;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 28px rgba(188, 140, 255, 0.45);
+        }
+
+        .featured-paper .doi-url {
+            margin-top: 12px;
+            font-size: 0.82rem;
+            color: var(--text-secondary);
+            word-break: break-all;
+        }
+
         @media (max-width: 520px) {
             h1 { font-size: 1.6rem; }
             .platforms strong { min-width: 100%; }
+            .doi-button { padding: 13px 22px; font-size: 0.95rem; }
         }
     </style>
 </head>
@@ -235,6 +298,14 @@
             <div class="metric">1,125+</div>
             <p>SSRN downloads and 56+ Semantic Scholar citations as an unaffiliated researcher</p>
         </div>
+    </div>
+
+    <div class="featured-paper">
+        <span class="label">Featured Research Article</span>
+        <p class="paper-title">Maximum DOI Research Papers by an Individual in a Year: A Proposal for an Open-Science Record</p>
+        <p class="summary">This article makes the formal case for a new record category that recognises independent researchers who publish openly with persistent, timestamped DOIs.<br>It shows why creative intellect should not depend on a university affiliation, giving unaffiliated creators a verifiable way to protect and claim their ideas.</p>
+        <a class="doi-button" href="https://doi.org/10.6084/m9.figshare.34933863" target="_blank" rel="noopener noreferrer">📄 Read the Research Article &rarr;</a>
+        <div class="doi-url">Permanent DOI: https://doi.org/10.6084/m9.figshare.34933863</div>
     </div>
 
     <h2 class="section-title">Category Vision &amp; Purpose</h2>
